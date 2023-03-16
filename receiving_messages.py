@@ -43,7 +43,7 @@ def smsReply():
             receivedSMS.write("\n" + messageBodyReceived)
     receivedSMS.close()
 
-    goodSampleQuestions = (random.choice(qWords) + ' ' + random.choice(swedishVerbs) + ' ' + random.choice(subject) + '?')
+    goodSampleQuestions = (random.choice(qWords) + ' ' + random.choice(englishVerb) + ' ' + random.choice(subject) + '?')
     messageBodySend = goodSampleQuestions
     
     #TextMessage = client.messages.create( from_ = fromNumber, body = messageBodySend, to = toNumber)
