@@ -24,7 +24,7 @@ client = Client(accountSID, authenticationToken)
 qWords = ['hello', 'summer']
 
 # Python list of verb
-swedishVerbs = ['eat', 'buy']
+englishVerb = ['eat', 'buy']
 
 # Python list of subject (for example pronoun). For now we are going to start with the pronouns
 subject= ['I']
