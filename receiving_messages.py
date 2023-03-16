@@ -1,5 +1,6 @@
 
-# Sending and receiving messages using Twilio.
+# Sending and receiving messages to and from a number using Twilio.
+# Author: omrsangx
 
 from flask import Flask, url_for, request, render_template
 from jinja2 import Template
